@@ -7,26 +7,27 @@ Nos centraremos en la primera parte en crear un instancia de <b>EC2</b> en AWS p
 Luego comenzaremos con el despligue de un Cluster de Kubernetes que dos opciones:
 terraform o ekcli. Una vez configurado el cluster integraremos el mismo con <b>Azure Devops</b> o <b>Github Actions</b> y deplegaremos un contenedor de <b> nginx </b>. 
 
-En la segunda parte, configuraremos monitoreo con el stack de <b> Elastic </b>, <b>FluentBit</b> y <b>Kibana</b> y luego desplegaremos <b>Grafana</b> y <b>Prometheus</b>.
+En la segunda parte, configuraremos monitoreo con el stack de <b> Elastic </b>, <b>FluentBit</b> y <b>Kibana</b> y luego desplegaremos <b>Grafana</b> y <b>Prometheus</b>.cd ..
 </div>
 
 
+## Contenido del proyecto
 
-#### Crear y configurar instancia EC2
+1. Crear y configurar instancia EC2
 
-#### Configurar instancia y cliente aws
+2. Configurar instancia y cliente aws
 
-#### Crear cluster con eksctl
+3. Crear cluster con eksctl
 
-#### Crear cluster con terraform
+4. Crear cluster con terraform
 
-##### Configurar kubectl
+5. Configurar kubectl
 
-#### Azure Devops Setup
+6. Azure Devops Setup
 
-#### Github Actions
+7. Github Actions
 
-#### Herramientas de monitoreo
+8. Herramientas de monitoreo
 
 
 # Bibliografía
