@@ -38,3 +38,13 @@ En la segunda parte, configuraremos monitoreo con el stack de <b> Elastic </b>, 
 - [Introduction to Docker Compose](http://dockerlabs.collabnix.com/intermediate/docker-compose/)
 - [Dockerfile Vs Docker compose ](http://dockerlabs.collabnix.com/intermediate/workshop/DockerCompose/Difference_between_dockerfile_and_docker_compose.html)
 - [How to Install Docker Compose? ](http://dockerlabs.collabnix.com/intermediate/workshop/DockerCompose/How_to_Install_Docker_Compose.html)
+
+
+### Localstack
+- [Localstack Intallation](https://docs.localstack.cloud/getting-started/installation)
+
+
+### Kubernetes
+
+
+### Monitoreo
