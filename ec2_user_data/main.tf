@@ -29,11 +29,11 @@ resource "aws_instance" "ec2_instance" {
   vpc_security_group_ids = ["${aws_security_group.examplesg.id}"]
   key_name = "linuxaws"
 
- user_data = <<-EOF
-             #!/bin/bash
-              echo "Hello, Andres" > /home/ec2-user/hello.txt
-              EOF
-#  user_data = "${file("ec2_user_data.sh")}"
+ #user_data = <<-EOF
+ #            #!/bin/bash
+ #             echo "Hello, Andres" > /home/ec2-user/hello.txt
+ #            EOF
+ user_data = "${file("ec2_user_data.sh")}"
 
   tags = {
     Name = "ec2-pin2204"
