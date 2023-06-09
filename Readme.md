@@ -45,3 +45,5 @@ En la segunda parte, configuraremos monitoreo con el stack de <b> Elastic </b>, 
 
 
 ### Monitoreo (Stack de EFK - Elasticsearch - Fluentbit - Kibana)
+
+![architectureefk](img/img00.png)
