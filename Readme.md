@@ -15,6 +15,13 @@ En la segunda parte, configuraremos monitoreo con el stack de <b> Elastic </b>, 
 
 1. Crear y configurar instancia EC2
 
+La instancia EC2 funciona como bastion y desde esa instancia se pide administrar los recursos. En la figura se puede ver una `VPC` pero para el caso del proyecto no fue requirido
+
+
+![secureinfraestructure](img/img01.png) 
+https://dev.to/spara_50/securing-infrastructure-build-a-bastion-host-28jp
+
+
 2. Configurar instancia y cliente aws
 
 3. Crear cluster con eksctl
