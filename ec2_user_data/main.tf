@@ -23,8 +23,9 @@ resource "aws_security_group" "examplesg" {
 
 
 resource "aws_instance" "ec2_instance" {
-  #ami                   = "ami-0557a15b87f6559cf"  #Ubuntu AMI where doesn't  work user_data 
-  ami                    = "ami-00c39f71452c08778"  # Amazon AMI where work user_data
+  ami                   = "ami-007855ac798b5175e"   #Ubuntu AMI where doesn't  work user_data 
+  #ami                  = "ami-0557a15b87f6559cf"  #Ubuntu AMI where doesn't  work user_data 
+  #ami                  = "ami-00c39f71452c08778"  # Amazon AMI where work user_data
   instance_type          = "t2.micro"
   vpc_security_group_ids = ["${aws_security_group.examplesg.id}"]
   key_name = "linuxaws"
@@ -33,7 +34,7 @@ resource "aws_instance" "ec2_instance" {
  #            #!/bin/bash
  #             echo "Hello, Andres" > /home/ec2-user/hello.txt
  #            EOF
- user_data = "${file("ec2_user_data.sh")}"
+ user_data = "${file("ec2_user_data-ubuntu.sh")}"
 
   tags = {
     Name = "ec2-pin2204"
