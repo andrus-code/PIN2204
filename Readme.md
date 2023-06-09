@@ -40,11 +40,8 @@ En la segunda parte, configuraremos monitoreo con el stack de <b> Elastic </b>, 
 - [How to Install Docker Compose? ](http://dockerlabs.collabnix.com/intermediate/workshop/DockerCompose/How_to_Install_Docker_Compose.html)
 
 
-### Localstack
-- [Localstack Intallation](https://docs.localstack.cloud/getting-started/installation)
-
 
 ### Kubernetes
 
 
-### Monitoreo
+### Monitoreo (Stack de EFK - Elasticsearch - Fluentbit - Kibana)
