@@ -1,15 +1,16 @@
 # Proyecto Devops 2023
 
-<div style='text-align: justify;'>
 Este proyecto tiene como idea principal el aprendizaje sobre distintos temas y poner en práctica lo aprendido a través de un laboratorio que permitirá integrar diferentes herramientas y tecnologías.
 
-Nos centraremos en la primera parte en crear un instancia de <b>EC2</b> en AWS para poder desde allí realizar todas las tareas necesarias. 
+Nos centraremos en la primera parte en crear un instancia de `EC2` en AWS para poder desde allí realizar todas las tareas necesarias. 
 Luego comenzaremos con el despligue de un Cluster de Kubernetes que dos opciones:
-terraform o ekcli. Una vez configurado el cluster integraremos el mismo con <b>Azure Devops</b> o <b>Github Actions</b> y deplegaremos un contenedor de <b> nginx </b>. 
+terraform o ekcli. Una vez configurado el cluster integraremos el mismo con `Azure Devops` o `Github Actions` y deplegaremos un contenedor de `nginx`
 
-En la segunda parte, configuraremos monitoreo con el stack de <b> Elastic </b>, <b>FluentBit</b> y <b>Kibana</b> y luego desplegaremos <b>Grafana</b> y <b>Prometheus</b>.cd ..
-</div>
+En la segunda parte, configuraremos monitoreo con el stack de `Elastic, FluentBit y Kibana ` y luego desplegaremos `Grafana`y `Prometheus`
 
+
+
+![arquitectura](img/arquitecture.png)
 
 ## Contenido del proyecto
 
@@ -46,4 +47,3 @@ En la segunda parte, configuraremos monitoreo con el stack de <b> Elastic </b>, 
 
 ### Monitoreo (Stack de EFK - Elasticsearch - Fluentbit - Kibana)
 
-![architectureefk](img/img00.png)
